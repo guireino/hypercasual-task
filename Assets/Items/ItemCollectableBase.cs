@@ -12,6 +12,10 @@ public class ItemCollectableBase : MonoBehaviour{
     [Header("Sounds")]
     public AudioSource audioSource;
 
+    public ItemCollectableBase()
+    {
+    }
+
     private void Awake() {
 
         //if (particleSystem != null) particleSystem.transform.SetParent(null);
@@ -37,8 +41,8 @@ public class ItemCollectableBase : MonoBehaviour{
     }
 
     protected virtual void OnCollect(){
-        if (particleSystem != null) particleSystem.Play();
-        if (audioSource != null) audioSource.Play();
+        //particleSystem?.Play();
+        //audioSource?.Play();
     }
     
 }
