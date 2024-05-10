@@ -12,8 +12,8 @@ public class ItemCollectableBase : MonoBehaviour{
     [Header("Sounds")]
     public AudioSource audioSource;
 
-    public ItemCollectableBase()
-    {
+    public ItemCollectableBase(){
+        
     }
 
     private void Awake() {

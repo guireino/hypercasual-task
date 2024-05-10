@@ -7,6 +7,7 @@ using TMPro;
 
 public class PlayerController : Singleton<PlayerController>{
 
+    [SerializeField] private BounceHelper _bounceHelper;
     private Vector3 _pos, _startPosition;
     private float _currentSpeed, _baseSpeedToAnimation = 7;
     private bool _canRun;
@@ -122,6 +123,13 @@ public class PlayerController : Singleton<PlayerController>{
     public void ChangeCoinCollectorSize(float amount){
         coinCollector.transform.localScale = Vector3.one * amount;
         Debug.Log("ChangeCoinCollectorSize coinCollector " + coinCollector);
+    }
+
+     public void Bounce(){
+
+        if(_bounceHelper != null){
+            _bounceHelper.Bounce();
+        }
     }
 
     #endregion
