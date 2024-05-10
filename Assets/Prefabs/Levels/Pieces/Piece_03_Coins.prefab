@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 6429837548545842246}
   - component: {fileID: 5057423415764274685}
   - component: {fileID: 675195563180371141}
+  - component: {fileID: 5940415677970835054}
   m_Layer: 0
   m_Name: Piece_03_Coins
   m_TagString: Untagged
@@ -157,6 +158,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endPiece: {fileID: 9126201854442595212}
+--- !u!114 &5940415677970835054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6594261499197771338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5715fba99ada9e39047e0fa3cd7bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 6429837548545842246}
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  duration: 0.2
 --- !u!1001 &283571478688871362
 PrefabInstance:
   m_ObjectHideFlags: 0

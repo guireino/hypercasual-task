@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6429837548545842246}
   - component: {fileID: 5057423415764274685}
   - component: {fileID: 1792779390707282252}
+  - component: {fileID: 636821079885977360}
   m_Layer: 0
   m_Name: Piece_01_End
   m_TagString: Untagged
@@ -124,6 +125,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endPiece: {fileID: 8163043599752630453}
+--- !u!114 &636821079885977360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6594261499197771338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5715fba99ada9e39047e0fa3cd7bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 6429837548545842246}
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  duration: 0.2
 --- !u!1 &7044187511324141347
 GameObject:
   m_ObjectHideFlags: 0
